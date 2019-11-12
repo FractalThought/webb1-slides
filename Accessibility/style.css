@@ -1,0 +1,34 @@
+button {
+  font-size: 3rem;
+  background: #fa1234;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+button:hover {
+  background: #ccc;
+}
+
+button.gray {
+  background: #ccc;
+}
+
+button.gray:hover {
+  background: #fff;
+  color: #ccc;
+}
+
+a.underline,
+span.underline {
+  text-decoration: underline;
+}
+
+span.underline:hover {
+  color: rgb(56, 107, 124);
+  cursor: pointer;
+}
+
+* {
+  text-align: left;
+}
